@@ -81,5 +81,5 @@ test:
 production:
   <<: *default
   database: fox_sample_production
-  username: fox_sample
+  username: rails
   password: <%= ENV['FOX_SAMPLE_DATABASE_PASSWORD'] %>
